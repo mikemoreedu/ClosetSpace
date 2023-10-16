@@ -4,7 +4,7 @@ Senior Design
 Before you start
 1. Make an account [here](https://expo.dev)
 2. Download Expo Go from iOS app store, log in to same account you just made
-3. Make sure you have node.js on your system
+3. Make sure you have node.js on your computer
 
 How to set up expo
 1. Open your IDE of choice and open the terminal
