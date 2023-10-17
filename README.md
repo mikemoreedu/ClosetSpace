@@ -1,6 +1,8 @@
 # ClosetSpace
 Senior Design
 
+Note: This is for developing with a windows computer
+
 Before you start
 1. Make an account [here](https://expo.dev)
 2. Download Expo Go from iOS app store, log in to same account you just made
@@ -19,3 +21,6 @@ To deploy build onto your iPhone
 3. Make sure you are signed into the app on your phone, ensure your phone and computer are both connected to the same WiFi network
 4. In the terminal type, " npx expo start "
 5. On the Expo Go app on your phone, ClosetSpace should appear under development servers
+
+For Macs, follow [this](https://developer.apple.com/documentation/xcode/running-your-app-in-simulator-or-on-a-device) documentation page after cloning the Github Repo to XCode.
+Video tutorial [here](https://www.youtube.com/watch?v=DloY4tyzKDA)
