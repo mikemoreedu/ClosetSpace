@@ -8,7 +8,7 @@ Before you start
 
 How to set up expo
 1. Open your IDE of choice and open the terminal
-2. In the terminal, type " npm install -g eas-cli "
+2. In the terminal, type " npm install -g eas-cli " (If you get an error saying script execution is not allowed, follow [this tutorial](https://winbuzzer.com/2020/07/10/how-to-enable-powershell-scripts-in-windows-10-via-powershell-execution-policy-xcxwbt/))
 3. Once it finishes, type " eas login " and fill in the fields
 4. Clone GitHub repo to your system and open it in your IDE
 5. You can start development!
