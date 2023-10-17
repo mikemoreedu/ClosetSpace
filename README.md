@@ -1,7 +1,7 @@
 # ClosetSpace
 Senior Design
 
-Note: This is for developing with a windows computer
+These instructions are for developing with a windows computer
 
 Before you start
 1. Make an account [here](https://expo.dev)
