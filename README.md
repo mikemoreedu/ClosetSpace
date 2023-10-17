@@ -6,7 +6,7 @@ Note: This is for developing with a windows computer
 Before you start
 1. Make an account [here](https://expo.dev)
 2. Download Expo Go from iOS app store, log in to same account you just made
-3. Make sure you have node.js on your computer
+3. Make sure you have node.js and npm on your computer
 
 How to set up expo
 1. Open your IDE of choice and open the terminal
@@ -19,8 +19,7 @@ To deploy build onto your iPhone
 1. Open the project in your IDE
 2. Open the terminal and type " eas whoami " to make sure you are signed into your expo account on your IDE
 3. Make sure you are signed into the app on your phone, ensure your phone and computer are both connected to the same WiFi network
-4. In the terminal type, " npx expo start "
+4. In the terminal type, " npx expo start " (at this point you may need to run "npm install" in your IDE terminal if you are getting an error when trying to build the app)
 5. On the Expo Go app on your phone, ClosetSpace should appear under development servers
 
-For Macs, follow [this](https://developer.apple.com/documentation/xcode/running-your-app-in-simulator-or-on-a-device) documentation page after cloning the Github Repo to XCode.
-Video tutorial [here](https://www.youtube.com/watch?v=DloY4tyzKDA)
+For Macs it should be the same but if you have issues follow this video tutorial [here](https://www.youtube.com/watch?v=DloY4tyzKDA)
