@@ -9,7 +9,7 @@ pipeline {
         stage('Build') { 
             steps {
                 sh 'npm install' 
-                sh 'npm install -g eas-cli'
+                sh 'sudo npm install -g eas-cli'
             }
         }
         stage('Deliver'){
