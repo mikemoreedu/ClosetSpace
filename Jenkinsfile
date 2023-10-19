@@ -9,7 +9,7 @@ pipeline {
         stage('Build') { 
             steps {
                 sh 'npm install' 
-                sh 'runas /noprofile /user:Administrator npm install -g eas-cli'
+                sh 'npm install -g eas-cli'
             }
         }
         stage('Deliver'){
