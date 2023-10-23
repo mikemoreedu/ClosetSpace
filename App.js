@@ -1,3 +1,4 @@
+
 import { StatusBar } from "expo-status-bar";
 import {
   StyleSheet,
@@ -9,12 +10,14 @@ import {
 } from "react-native";
 import React, { useState } from "react";
 
+
 export default function App() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
   return (
     <View style={styles.container}>
+
       <View style={styles.inputContainer}>
         <TextInput
           style={styles.input}
@@ -49,6 +52,7 @@ export default function App() {
         >
           <Text style={styles.buttonText}>Create an account</Text>
         </TouchableOpacity>
+
       </View>
 
       <StatusBar style="auto" />
