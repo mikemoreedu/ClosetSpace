@@ -9,6 +9,20 @@ import {
 } from "react-native";
 import React, { useState } from "react";
 import SignInScreen from "./src/pages/SignInScreen";
+import * as React from 'react';
+import MainContainer from './navigation/maincontainer';
+
+//TODO: link navbar functionality after sign-in is complete
+
+// Uncomment this block and switch with other function for navbar functionality.
+/* export default function App() {
+  return (
+    <MainContainer/>
+  );
+}
+
+export default App;
+*/
 
 export default function App() {
 
