@@ -3,12 +3,8 @@
 echo 'The following command will initiate a build of the app on a ios sim'
 
 set -x 
-eas login
+eas login -u jocampo8 -p jO#203500
 set +x
-
-echo jocampo8
-echo jO#203500
-
 
 set -x
 #eas build -p ios --profile preview
