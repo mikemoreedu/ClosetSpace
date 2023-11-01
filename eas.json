@@ -1,5 +1,8 @@
 {
     "build": {
+      "env":{
+        "EXPO_TOKEN": "2-8KBRpk_5zVtgnjeFnFLI_wZZWH-rpazlwd9-dC"
+      },
       "development": {
         "developmentClient": true,
         "distribution": "internal"

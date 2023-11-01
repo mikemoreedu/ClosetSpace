@@ -2,13 +2,10 @@
 
 echo 'The following command will initiate a build of the app on a ios sim'
 
-set -x 
-eas login --sso
-set +x
 
 set -x
 #eas build -p ios --profile preview
-eas build -p android --profile preview
+eas build -p android --profile preview --non-interactive
 set +x
 
 echo 'This will run the build latest build'
