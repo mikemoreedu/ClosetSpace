@@ -9,6 +9,7 @@ pipeline {
         stage('Build') { 
             steps {
                 sh 'npm install' 
+                sh 'npm add expo'
                 sh 'npm install -g eas-cli'
             }
         }
