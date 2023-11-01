@@ -6,6 +6,7 @@ echo 'The following command will initiate a build of the app on a ios sim'
 set -x
 #eas build -p ios --profile preview
 npx expo login -u jocampo8 -p jO#203500
+eas init
 eas build -p android --profile preview --non-interactive
 set +x
 
