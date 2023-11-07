@@ -18,7 +18,7 @@ export default function ProfileScreen({ navigation }) {
             backgroundColor: 'grey',
             borderRadius: 50,
         }}
-        source={require('..assets/images/ClotoureLogo.png')}></Image>
+        source={require('../../assets/images/ClotoureLogo.png')}></Image>
 
 
         </View>

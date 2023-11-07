@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, Pressable } from "react-native";
+import { View, Text, Pressable, TouchableOpacity } from "react-native";
 import { StyleSheet } from "react-native-web";
 
 // Default value for button type is Primary
@@ -11,24 +11,27 @@ const CustomButton = ({
   fgColor,
 }) => {
   return (
-    <Pressable
-      onPress={onpress}
-      style={[
-        styles.container,
-        styles[`container_${type}`],
-        bgColor ? { backgroundColor: bgColor } : {}, // If bg color specified, assign property with bg color, other assign empty style.
-      ]}
-    >
-      <Text
+    <TouchableOpacity
+      
+        onPress={onpress}
         style={[
-          styles.text,
-          styles[`text_${type}`],
-          fgColor ? { color: fgColor } : {},
+          styles.container,
+          styles[`container_${type}`],
+          bgColor ? { backgroundColor: bgColor } : {}, // If bg color specified, assign property with bg color, other assign empty style.
         ]}
       >
-        {text}
-      </Text>
-    </Pressable>
+        <Text
+          style={[
+            styles.text,
+            styles[`text_${type}`],
+            fgColor ? { color: fgColor } : {},
+          ]}
+        >
+          {text}
+        </Text>
+      
+    
+    </TouchableOpacity>
   );
 };
 

@@ -1,4 +1,5 @@
-import { React, useState } from "react";
+import * as React from 'react';
+import { useState } from 'react';
 import {
   View,
   Text,
@@ -14,7 +15,11 @@ import CustomInput from "../components/CustomInput";
 
 import CustomButton from "../components/CustomButton";
 
-const SignInScreen = () => {
+
+import HomeScreen from "./HomeScreen";
+import MainContainer from "../../navigation/maincontainer";
+
+const SignInScreen = ({ Navigation}) => {
   const [username, setUsername] = useState("");
 
   const [password, setPassword] = useState("");
@@ -22,7 +27,9 @@ const SignInScreen = () => {
   const { height } = useWindowDimensions();
 
   const onSignInPressed = () => {
-    console.warn("Sign In");
+    //console.warn("Sign In");
+    //Navigation.navigate(HomeScreen);
+    alert('This is the "Home" screen.');
   };
 
   const onForgotPasswordPressed = () => {
@@ -66,7 +73,10 @@ const SignInScreen = () => {
           secureTextEntry={true}
         />
 
-        <CustomButton text="Sign In" onPress={onSignInPressed} />
+        <CustomButton
+         text="Sign In" 
+         onpress={() => Navigation.navigate('Home')}
+        />
 
         <CustomButton
           text="Forgot Password"
