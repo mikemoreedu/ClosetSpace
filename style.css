@@ -1,0 +1,23 @@
+.iphone-pro {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.iphone-pro .hanger-icon-vector-wrapper {
+    background-color: #ffffff;
+    height: 852px;
+    position: relative;
+    width: 393px;
+}
+
+.iphone-pro .hanger-icon-vector {
+    height: 248px;
+    left: 69px;
+    object-fit: cover;
+    position: absolute;
+    top: 223px;
+    width: 255px;
+}

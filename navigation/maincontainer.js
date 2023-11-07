@@ -6,11 +6,11 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 // Screens
-import HomeScreen from './screens/homeScreen';
-import SearchScreen from './screens/searchScreen';
-import SettingsScreen from './screens/settingsScreen';
-import ExtraScreen from './screens/extraScreen';
-import ProfileScreen from './screens/profileScreen';
+import HomeScreen from '../src/pages/homeScreen';
+import SearchScreen from '../src/pages/searchScreen';
+import SettingsScreen from '../src/pages/settingsScreen';
+import ExtraScreen from '../src/pages/DMScreen';
+import ProfileScreen from '../src/pages/profileScreen';
 
 //Screen names
 const homeName = "Home";

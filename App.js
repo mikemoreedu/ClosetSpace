@@ -14,23 +14,17 @@ import MainContainer from './navigation/maincontainer';
 
 //TODO: link navbar functionality after sign-in is complete
 
-// Uncomment this block and switch with other function for navbar functionality.
-/* export default function App() {
-  return (
-    <MainContainer/>
-  );
-}
-
-export default App;
-*/
 
 export default function App() {
 
 
   return (
-    <View style={styles.root}>
+    /*<View style={styles.root}>
       <SignInScreen></SignInScreen>
-    </View>
+    </View>*/
+    /*// Switch these to get functionality of log in page or navbar*/
+    <MainContainer/>
+   
   );
 }
 
