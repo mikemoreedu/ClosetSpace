@@ -9,6 +9,7 @@ npx expo login -u jocampo8 -p jO#203500
 eas build:configure -p android
 eas build -p android --profile preview
 
+
 #npx expo start --dev-client
 #eas build:configure
 #eas build:configure -p android --profile preview --non-interactive
