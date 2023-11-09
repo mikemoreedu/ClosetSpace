@@ -6,14 +6,17 @@ echo 'The following command will initiate a build of the app on a ios sim'
 set -x
 #eas build -p ios --profile preview
 npx expo login -u jocampo8 -p jO#203500
-npx expo start
+eas build:configure -p android
+eas build -p android --profile preview
+
+#npx expo start --dev-client
 #eas build:configure
 #eas build:configure -p android --profile preview --non-interactive
 set +x
 
-echo 'This will run the build latest build'
+#echo 'This will run the build latest build'
 
-set -x
+#set -x
 #eas build:run -p ios --latest
-eas build:run -p android --latest
-set +x
+#eas build:run -p android --latest
+#set +x
