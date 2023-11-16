@@ -6,11 +6,13 @@
       },
       "preview": {
         "distribution": "internal",
-        "ios": {
-            "simulator": true
-        },
         "android": {
           "buildType": "apk"
+        }
+      },
+      "simulator": {
+        "ios": {
+          "simulator": true
         }
       },
       "production": {}

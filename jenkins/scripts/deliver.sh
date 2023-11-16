@@ -7,7 +7,7 @@ set -x
 #eas build -p ios --profile preview
 npx expo login -u jocampo8 -p jO#203500
 eas build:configure -p ios
-eas build -p ios --profile preview
+eas build -p ios --profile simulator
 
 
 #npx expo start --dev-client
